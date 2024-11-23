@@ -1,0 +1,553 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.navbar1 {
+    display: flex;
+    background-color: green;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+.main {
+    display: flex;
+    color: white;
+    gap: 6px;
+    align-items: center;
+}
+
+.main a {
+    color: white;
+    text-decoration: none;
+}
+
+.main img {
+    height: 20px;
+    width: 20px;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.link a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.navbar2 {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks a {
+    color: green;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navlinks .home {
+    color: red;
+    border-bottom: solid 1px red;
+}
+
+.navlinks a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 0.5s;
+}
+
+.looks {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down p {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.down h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.down a {
+    padding: 10px;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.up img {
+    width: 400px;
+    height: 400px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.go {
+    display: flex;
+    align-items: center;
+}
+
+.go img {
+    width: 50px;
+    height: 50px;
+}
+
+.go h3 {
+    font-size: 15px;
+}
+
+.go p {
+    font-size: 13px;
+    color: gray;
+}
+
+.admission {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+
+.vc img {
+    height: 500px;
+    width: 500px;
+}
+
+.ongoing {
+    padding: 10px;
+    padding-right: 100px;
+}
+
+.ongoing h1 {
+    font-size: 60px;
+}
+
+.ongoing h6 {
+    font-size: 25px;
+}
+
+.ongoing a {
+    padding: 20px;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.ongoing a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.about {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+.text {
+    width: 700px;
+}
+
+.courses {
+    padding: 20px;
+}
+.courses h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 3px solid green;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.roll {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.inside {
+    border: 1px solid green;
+    background: none;
+    width: 420px;
+    align-items: center;
+    text-align: center;
+}
+
+.inside img {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+}
+
+.inside p {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: green;
+}
+
+.inside p a {
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inside p a:hover {
+    color: green;
+    transition: 0.8s;
+}
+
+.inside a {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.news h1 {
+    font-size: 30px;
+    border-bottom: 3px solid green;
+    width: 280px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.newstext {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.newsgo {
+    border: 1px solid green;
+    width: 420px;
+    text-align: center;
+}
+
+.newsgo img {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.newsgo p {
+    font-weight: bold;
+    color: green;
+}
+
+.newsgo a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 40px;
+    text-align: center;
+}
+
+.foot {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 900px;
+}
+
+.foot h4 {
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    width: 170px;
+}
+
+.foot .change {
+    width: 90px;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    margin: 4px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.foot a img {
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+}
+
+@media (max-width: 786px) {
+    .navlinks {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 30px;
+        color: green;
+        background: none;
+        cursor: pointer;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .link {
+        margin: 0px auto;
+    }
+
+    .navbar2 .navlinks.active {
+        display: flex; 
+        flex-direction: column; 
+        background-color: #ffffff; 
+        color: #008000; 
+        gap: 12px; 
+        padding: 10px; 
+        text-align: left; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+        border-radius: 8px; 
+    }
+
+    .looks {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .down {
+        flex-direction: column;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .down p {
+        font-size: 25px;
+    }
+
+    .down h1 {
+        font-size: 75px;
+    }
+    
+    .list {
+        display: flex;
+        width: auto;
+    }
+
+    .go img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .writeup h3 {
+        font-size: 10px;
+    }
+
+    .writeup p {
+        font-size: 8px;
+    }
+
+    .admission {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 0px;
+        margin-bottom: 20px;
+        padding-top: 0px;
+    }
+
+    .vc img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .ongoing {
+        padding-bottom: 30px ;
+    }
+
+    .obongabout h2 {
+        font-size: 26px;
+        padding-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .text {
+        text-align: left;
+    }
+
+    .courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .roll {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inside {
+        margin: 10px;
+        width: 300px;
+    }
+
+    .inside img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newstext {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .newsgo {
+        margin: 10px;
+        width: 300px;
+    }
+
+    .newsgo img {
+        width: 280px;
+        height: 280px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+    }
+
+    .foot {
+        margin-bottom: 40px;
+    }
+
+    .foot h4 {
+        font-size: 20px;
+    }
+
+    .foot a {
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+
+    .foot a {
+        width: 300px;
+    }
+
+}
+
+
+
+
+
